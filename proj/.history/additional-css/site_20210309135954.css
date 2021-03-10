@@ -1,0 +1,21 @@
+#page{
+background: black;
+height: 100%;
+width: 100%;
+
+}
+#joke{
+    width: 100%;
+
+}
+.post{
+    text-align: center;
+}
+.envoi{
+    justify-self: center;
+}
+#writer{
+    flex-direction: column;
+    display: flex;
+    margin-top: 100px;
+}

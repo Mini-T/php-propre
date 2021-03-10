@@ -1,0 +1,18 @@
+#page{
+background: black;
+height: 100%;
+
+}
+#joke{
+    width: 100%;
+}
+.post{
+    text-align: center;
+}
+.envoi{
+    justify-self: center;
+}
+form{
+    margin-top: ;
+    display: flex;
+}
