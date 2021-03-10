@@ -17,10 +17,9 @@
             $safeuser = htmlentities($user, ENT_QUOTES);
             $postcontent = $_POST['joke'];
             $safecontent = htmlentities($postcontent, ENT_QUOTES);
-            $jkpost = $pdo->exec("INSERT INTO joke(utilisateur, content, date, heure, upvote) VALUES('$user', '$postcontent', '$date', '$heure', 0)");
+            $jkpost = $pdo->exec("INSERT INTO joke(utilisateur, content, date, heure, upvote) VALUES('$user', '$postcontent', '$date', $heure, 0)");
         } catch(PDOException $e) {
             echo $e->getMessage();
         }
     }
     ?>
-    <?php require_once("include/footer.inc.php"); ?>

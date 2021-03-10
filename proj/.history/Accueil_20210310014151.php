@@ -14,7 +14,7 @@
 
             <div class="card-body">
                 <h5 class="card-title"><?php echo $fetchaffi->utilisateur ?></h5>
-                <h6 class="display-6" style="font-size: 15px;"><?php echo $fetchaffi->date?> </h6>
+                <h6 class="display-6" style="font-size: 3px;"> date</h6>
                 <p class="card-text"><?php echo $fetchaffi->content?></p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
