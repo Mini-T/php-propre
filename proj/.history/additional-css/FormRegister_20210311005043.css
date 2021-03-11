@@ -1,0 +1,87 @@
+/* REGISTER ET LOGIN */
+
+.champs {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 40px;
+  height: 70px;
+}
+input[type="submit"] {
+  margin: 0px;
+  size: inherit;
+  justify-self: center;
+}
+
+.affi {
+  display: flex;
+  flex-direction: column;
+
+  margin: 10px;
+  height: 500px;
+}
+.card {
+  /* display: flex;
+  align-content: space-between;
+  width: auto;
+  padding: 20px;
+  margin-top: 10%;
+  height: auto; */
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+}
+button.login {
+  width: 100%;
+  height: 50px;
+  bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#mdp {
+  margin-bottom: 20px;
+}
+
+.titre {
+  font-family: quicksand;
+  margin: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.205), 3%, transparent),
+    linear-gradient(to right, rgba(0, 0, 0, 0.205), 3%, white);
+}
+.message {
+  font-size: 14px;
+  padding: 0px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  color: red;
+}
+.stick {
+  display: flex;
+  align-self: flex-end;
+}
+#navign {
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 6px;
+}
+.enregistre {
+  font-size: 13px;
+  font-family: quicksand;
+}
+
+/* ACCUEIL.PHP */
+
+#page {
+  background-color: black;
+}
+.post
+{
+  display: flex;
+  align-content: center;
+}
