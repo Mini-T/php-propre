@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+}
+.navbar{
+    background: black;
+    width: 100%;
+    max-height: 60px;
+}
+#listnav{
+    display: flex;
+    justify-content: center;
+    margin:0px ;
+}
+#listnav a{
+    font-size: 22px;
+    margin: 7px;
+    padding: 20px;
+    text-decoration: none;
+}

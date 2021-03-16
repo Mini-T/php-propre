@@ -1,0 +1,6 @@
+.navbar{
+    background: black;
+}
+#listnav{
+    list-style-position: outside;
+}

@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+}
+.navbar{
+    margin: 0px;
+    height: 200px;
+    background: black;
+    width: 100%;
+}
+#listnav{
+    display: flex;
+    justify-content: center;
+    margin:0px ;
+}
