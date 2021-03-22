@@ -1,0 +1,1 @@
+<?php $pdo = new PDO("mysql:host=localhost;dbname=jeux_video', 'root', 'my_password'");
