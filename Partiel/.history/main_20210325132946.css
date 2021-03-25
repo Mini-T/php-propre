@@ -1,0 +1,109 @@
+#main{
+    font-family: söhne;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+#image{
+
+    background-image:url('Sans-titre-1.png'), url('fond-normal-size.jpg');
+    color: white;
+    font-family: kanit medium;
+    display: grid;
+    max-width: 1920px;
+    grid-template-columns: 1fr 2Fr;
+    width: 100vw;
+    height: 1080px;
+    flex-direction: column;
+}
+
+.topright{
+    background: black;
+    font-size: 37px;
+    text-align: right;
+    margin-bottom: 243px;
+}
+#titre{
+    margin: 0px;
+    font-family: kanit medium;
+    font-weight: normal;
+    font-size: 117px;
+    text-align: left;
+}
+.text{
+    font-size: 37px; 
+    font-family: Sohne-Leicht ;
+}
+#follow{
+    margin-bottom: 40px;
+    text-align: right;
+    height: fit-content;
+    text-align: right;
+}
+   
+.frat{
+    width: 100%;
+    height: 1080px;
+    
+}
+.fratt{
+    padding: 0px 45px  0px 45px;
+    max-height: 1080px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr ;
+
+
+    
+}
+#row1{
+    font-size: 37px;
+    text-align: right;
+}
+#row2{
+    
+        height: fit-content;
+}
+#row3{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+#avantages{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-gap: 100px;
+    
+
+
+}
+.stitle{
+    font-family: kanit;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+#first{
+    text-align: center;
+}
+#second{
+    justify-items: center;
+    display: grid;
+    margin-left: 139px;
+    margin-right: 139px;
+    grid-template-columns: 1FR 1FR 1FR;
+}
+#cardt{
+    font-size: 37px;
+    font-weight: bold;
+}

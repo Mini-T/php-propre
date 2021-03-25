@@ -1,0 +1,65 @@
+#main{
+    display: flex;
+}
+body{
+    overflow: hidden;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+#image{
+    background-image: url('fond-normal-size.jpg');
+    color: white;
+    font-family: sohne;
+    display: grid;
+    max-width: 1920px;
+    grid-template-columns: 1fr 1Fr;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.center{
+    background: black;
+   
+    align-self: center; 
+    margin-left: 838px ;
+    margin-right: 733px;
+}
+.topright{
+    background: black;
+    font-size: 37px;
+   
+    text-align: right;
+    justify-self: right;
+    margin-bottom: 243px;
+}
+#titre{
+    margin: 0px;
+    font-family: kanit medium;
+    font-weight: normal;
+    font-size: 117px;
+    text-align: left;
+}
+.text{
+    font-size: 37px; 
+}
+#follow{
+    text-align: right;
+    margin-right: 44Px;
+   
+    margin-top: 144px;
+}
+   
+.frat{
+    width: 100%;
+    height: 100%;
+    
+}
+.fratt{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
