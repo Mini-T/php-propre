@@ -1,0 +1,36 @@
+#main{
+    display: flex;
+}
+#image{
+    text-decoration: none;
+    color: white;
+    font-family: kanit;
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    flex-direction: column;
+}
+.center{
+    width: 866px;
+    align-self: center; 
+    margin-left: 838px ;
+
+}
+.topright{
+    text-align: right;
+    margin-bottom: 298px;
+}
+#titre{
+    font-size: 117px;
+    text-align: left;
+}
+.text{
+    font-size: 37px;
+    text-align: left;
+    
+}
+#follow{
+    text-align: right;
+    margin-top: 144px;
+}
+   

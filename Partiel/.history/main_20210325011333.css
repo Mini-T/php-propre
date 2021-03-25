@@ -1,0 +1,17 @@
+#main{
+    display: flex;
+}
+#image{
+    font-family: kanit;
+    display: flex;
+    width: 100%;
+    height: 1080px;
+    justify-content: center;
+    flex-direction: column;
+}
+#titre{
+    align-self: center;
+}
+#membre{
+    justify-self: flex-end;
+}

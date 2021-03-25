@@ -1,0 +1,53 @@
+#main{
+    display: flex;
+}
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+#image{
+    background-image: url('fond-normal-size.jpg');
+    color: white;
+    font-family: kanit;
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    flex-direction: column;
+}
+.center{
+    width: 866px;
+    height: 469px;
+    align-self: center; 
+    margin-left: 838px ;
+    margin-right: 733px;
+
+}
+.topright{
+    font-size: 37px;
+    margin-top: 39px;
+    margin-right: 107px;
+    text-align: right;
+    margin-bottom: 243px;
+}
+#titre{
+    font-size: 117px;
+    text-align: left;
+}
+.text{
+    font-size: 37px;
+    text-align: left;
+    
+}
+#follow{
+    
+    
+    background: black;
+    text-align: right;
+    align-self: flex-end    ;
+    margin-top: 144px;
+}
+   
