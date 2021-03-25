@@ -73,7 +73,7 @@
             <h2 class="stitle">Nos meilleurs cours</h2>
         </div>
 
-        <!-- DEBUT CARROUSEL -->
+        //DEBUT CARROUSEL
 
         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
 
@@ -108,7 +108,7 @@
             <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
             <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
 
-            <!-- FIN CAROUSEL -->
+            //FIN CAROUSEL
 
         </div>
         <div id="class1">

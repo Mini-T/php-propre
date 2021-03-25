@@ -4,8 +4,9 @@
   font-family: Söhne;
   src: local("C:\Windows\Fonts/Söhne") format("Leicht");
 }
-p {
-  margin: unset;
+p{
+    margin: none
+    ;
 }
 h2 {
   margin: none;
@@ -49,7 +50,6 @@ a {
   margin-bottom: 243px;
 }
 .titre {
-    color: whitesmoke;
   margin: 0px;
   font-family: kanit medium;
   font-weight: normal;
@@ -175,13 +175,13 @@ a {
 }
 #cards {
   display: grid;
-  grid-column-gap: 200px;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 218px;
+  margin-right: 218px;
 }
 .cardtitle {
   font-size: 37;
-  color: white;
   font-weight: bolder;
 }
 .card {
@@ -193,80 +193,31 @@ a {
   height: 670px;
 }
 #liste {
-  font-size: 19px;
+    font-size: 19px;
   text-align: left;
   list-style: none;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1FR 1FR 1FR 1FR;
+  
 }
-.checklist {
-  display: flex;
-  align-content: center;
+.checklist{
+    display: flex;
+    align-content: center;
+   
 }
-.double {
-  display: flex;
-  line-height: unset;
-  align-content: center;
-  margin-top: 20px;
-  padding-right: 20px;
+.double{
+    display: flex;
+    line-height: unset;
+    align-content: center;
+    margin-top: 20px;
+    padding-right: 20px ;
 }
-#offer {
-  margin-top: 240px;
-  margin-bottom: 124px;
+#offer{
+    margin-top: 240px ;
+    margin-bottom: 124px;
 }
-.frais {
-  display: flex;
-  align-content: center;
-  flex-direction: column-reverse;
-}
-.prom {
-  font-weight: bold;
-}
-#choix {
-  border: none;
-  justify-self: center;
-  width: 100px;
-  height: 30px;
-  background-color: white;
-  color: #ffa62b;
-}
-.horaire {
-  font-weight: bold;
-  font-size: 19px;
-}
-.newsletter {
-  margin-top: 240px;
-  text-align: center;
-  margin-bottom: 200px;
-}
-#new {
-  margin-bottom: 125px;
-}
-#putain {
-  margin-bottom: 40px;
-}
-.prop {
-  font-size: 28px;
-  width: 860px;
-  margin-right: 525px;
-  margin-left: 525px;
-}
-#email {
-  padding-right: 20px;
-  padding-left: 20px;
-  width: 480px;
-  height: 80px;
-}
-#envoi{
-    color:#ffa62b ;
-    text-decoration: underline #ffa62b;
-    font-size: 29px;
-    border: none;
-    background: none;
-    text-transform: uppercase;
-
-}
-#message{
-    font-size: 12px;
-
-}
+.frais{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    

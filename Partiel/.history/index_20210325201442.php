@@ -73,7 +73,7 @@
             <h2 class="stitle">Nos meilleurs cours</h2>
         </div>
 
-        <!-- DEBUT CARROUSEL -->
+        //DEBUT CARROUSEL
 
         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
 
@@ -108,7 +108,7 @@
             <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
             <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
 
-            <!-- FIN CAROUSEL -->
+            //FIN CAROUSEL
 
         </div>
         <div id="class1">
@@ -118,7 +118,7 @@
                     <h2 class="cardtitle">SOFT</h2>
                     <div>
                         <p class="horaire">8h - 18h</p>
-                        <H3 style="font-size: 30px; color:white; font-weight:bolder">19,99€ / mois</H3>
+                        <H3 style="font-size: 30px; color:white">19,99€ / mois</H3>
                     </div>
                     <div>
                         <ul id="liste">
@@ -159,7 +159,7 @@
                     <h2 class="cardtitle">MEDIUM</h2>
                     <div>
                         <p class="horaire">6h - 18h</p>
-                        <H3 style="font-size: 30px; color:white; font-weight:bolder">19,99€ / mois</H3>
+                        <H3 style="font-size: 30px; color:white">19,99€ / mois</H3>
                     </div>
                     <div>
                         <ul id="liste">
@@ -200,7 +200,7 @@
                     <h2 class="cardtitle">PRIVILEGE</h2>
                     <div>
                         <p class="horaire">6h - 24h</p>
-                        <H3 style="font-size: 30px; color:white; font-weight:bolder">19,99€ / mois</H3>
+                        <H3 style="font-size: 30px; color:white">19,99€ / mois</H3>
                     </div>
                     <div>
                         <ul id="liste">
@@ -238,19 +238,6 @@
                     <button id="choix">Choisir</button>
                 </div>
             </div>
-        </div>
-        <div class='newsletter'>
-            <h2 class="stitle" id="new">Newsletter</h2>
-            <p class="prop">Inscrivez-vous à la newsletter et ne manquez rien de l'actualité de
-                FIT IT. Découvrez nos nouvelles salles, nos offres
-                exclusives et nos conseils de pro.</p>
-            <input type="email" id="email" name="email" placeholder="Votre adresse e-mail"><br>
-            <input type="submit" id="envoi" name="envoi" value="Valider"><br>
-            <input type="checkbox" id="putain" name="putain">
-            <label for="putain">Vous acceptez de recevoir nos derniers articles par mail</label>
-            <p class="prop" id="message">En vous inscrivant, vous acceptez de recevoir des lettres d’informations ou des messages informatifs de la commune du Séquestre. Vous affirmez aussi avoir pris connaissance de notre politique de confidentialité. Si vous êtes inscrit, vous pouvez vous désinscrire à tout moment à l’aide du lien de désinscription inclus dans les emails que vous recevrez ou en nous contactant à l’adresse 
-mairie@lesequestre.fr.</p>
-        </div>
 </body>
 
 </html>
