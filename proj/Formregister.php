@@ -72,7 +72,6 @@ $SimpleSelect = $pdo->query('SELECT * FROM utilisateur'); ?>
 
                 </div>
                 <button type="submit" class="btn btn-primary login" name="register">Register</button>
-                <div class="php">
             </form>
     </div>
 </div>

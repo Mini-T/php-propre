@@ -1,0 +1,52 @@
+#listnav{
+    display: grid;
+    grid-template-columns: 1FR 1FR 1FR 1FR 1FR;
+    margin: 50px 50px 50px 50px;
+    justify-items: center;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 18FR 2FR ;
+    background: grey;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loginbtn{
+    width: 35%;
+    height: 5vh;
+}
+.displayphp {
+    background: black ;
+    color: pink;
+}
+.formdisplay{
+    display: grid;
+    grid-template-rows: 1FR 1FR 1FR 1FR;
+    width: fit-content;
+    height: fit-content;
+    justify-items: center;  
+}
+.formbox{
+    display: grid;
+    grid-template-columns: 1FR 1FR 1FR;
+    height: 100%;
+    width: 100VW;
+    justify-items: center;
+}
+.placement-hcenter{
+    display: grid;
+    grid-template-rows:1FR 1FR 1FR;
+    height: 100%;
+}

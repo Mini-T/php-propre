@@ -1,0 +1,23 @@
+#listnav{
+    display: grid;
+    grid-template-columns: 1FR 1FR 1FR 1FR 1FR;
+    margin: 50px 50px 50px 50px;
+    justify-items: center;
+    
+
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 8FR 2FR ;
+    background: grey;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
+.right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,33 @@
+#listnav{
+    display: grid;
+    grid-template-columns: 1FR 1FR 1FR 1FR 1FR;
+    margin: 50px 50px 50px 50px;
+    justify-items: center;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: unset;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 18FR 2FR ;
+    background: grey;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
+.right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loginbtn{
+    width: 5vw;
+    height: 5vh;
+}
+element:focus{
+    /* outline: none; */
+}

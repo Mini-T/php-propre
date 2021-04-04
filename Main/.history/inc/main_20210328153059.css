@@ -1,0 +1,15 @@
+#listnav{
+    display: grid;
+    grid-template-columns: 1FR 1FR 1FR 1FR 1FR;
+    margin : 50px 50px 50px 50px;
+    justify-items: center;
+    
+
+}
+.navbar{
+    background: grey;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
